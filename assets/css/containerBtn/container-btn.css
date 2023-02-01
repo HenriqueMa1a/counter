@@ -1,0 +1,18 @@
+.container .action{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.container .action button{
+    background: none;
+    border-radius: 7px ;
+    cursor: pointer;
+    font-size: 1.075em;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.container .action button:hover{
+    border: 2px solid rgb(70, 178, 214);
+}
